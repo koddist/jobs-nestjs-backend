@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "63fc6a9e-c0e0-47fe-8a0d-f91059fea944",
+		"name": "jobs247",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/jobs?position=1&companyId=1&search=angular",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "position",
+							"value": "1"
+						},
+						{
+							"key": "companyId",
+							"value": "1"
+						},
+						{
+							"key": "search",
+							"value": "angular"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get positions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/positions",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"positions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get companies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/companies",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"companies"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
