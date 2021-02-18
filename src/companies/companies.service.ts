@@ -4,7 +4,6 @@ import { companies } from './mock-data/companies';
 
 @Injectable()
 export class CompaniesService {
-
   getCompanies(): Company[] {
     return companies;
   }

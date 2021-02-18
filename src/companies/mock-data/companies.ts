@@ -3,7 +3,7 @@ import { Company } from '../interfaces/company';
 export const companies: Company[] = [
   {
     id: 1,
-    name: 'edr software GmbH',
+    name: 'x software GmbH',
   },
   {
     id: 2,

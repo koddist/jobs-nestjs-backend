@@ -4,12 +4,10 @@ import { PositionsService } from './positions.service';
 
 @Controller('positions')
 export class PositionsController {
-  constructor(private readonly positionsController: PositionsService) {
-  }
+  constructor(private readonly positionsController: PositionsService) {}
 
   @Get()
   getPositions(): Position[] {
     return this.positionsController.getPositions();
   }
-
 }

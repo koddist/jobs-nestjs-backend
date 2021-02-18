@@ -4,10 +4,7 @@ import { CompaniesService } from './companies.service';
 
 @Controller('companies')
 export class CompaniesController {
-
-  constructor(private readonly companiesService: CompaniesService) {
-  }
-
+  constructor(private readonly companiesService: CompaniesService) {}
 
   @Get()
   getCompanies(): Company[] {
