@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3030/jobs?position=1&companyId=1&search=angular",
+					"raw": "localhost:3030/jobs?positionId=1&companyId=1&search=angular",
 					"host": [
 						"localhost"
 					],
@@ -21,7 +21,7 @@
 					],
 					"query": [
 						{
-							"key": "position",
+							"key": "positionId",
 							"value": "1"
 						},
 						{
